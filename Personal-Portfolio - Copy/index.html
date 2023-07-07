@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Jimpa Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/664e7d9629.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png"  class="logo">
+               
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Jimpa</span> Gyatso <br> From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------------About------------------------------------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Highly motivated and passionate computer science engineering graduate seeking a challenging position as a fresher in the field of Computer Science Engineering. Eager to apply my theoretical knowledge and practical skills acquired during my B.Tech program to contribute to the success of a progressive organization.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('core-subjects')">Core-Subejcts</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C++</span></li>
+                            <li><span>Data Structure and Algorithm</span></li>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>HTML,CSS,Javascript</span></li>
+                            <li><span>Node.js(learning)</span></li>
+                            <li><span>React.js(learning)</span></li>
+                            <li><span>OOPs</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>Analytical Skill</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="core-subjects">
+                        <ul>
+                            <li><span>Computer Network</span></li>
+                            <li><span>Operating System</span></li>
+                            <li><span>DBMS</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Jabalpur Engineering College</span><br><br>B.tech, Computer Science and Engineering <br>
+                            <p>CGPA: 7.68</p>
+                            </li>
+        
+                           <li><span>Tibetan Children Village School(C.B.S.E)</span><br><br>Class-12,Science(PCMC) <br>
+                            <p>Percentage:80%,
+                                Topper in C++ programming(school)
+                            </p>
+                            </li>
+
+                            <li><span>Tibetan Children Village School(C.B.S.E)</span><br><br>Class-10<br>
+                            <p>Grade: 7/10</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------Service---------------------------------- -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Certificate</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python fa-xl"></i>
+                <h2>Programming in Python(Internshala)</h2>
+                <br><br>
+                <p>The below link is my Python Certificate from Internshala</p>
+                <a href="https://trainings.internshala.com/s/v/3063789/35a5fdf1">Click here...</a>
+
+            </div>
+
+        </div>
+    </div>
+   </div>
+
+   <!-- ----------------------------Portfolio------------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+   <h1 class="sub-title">My Projects</h1>
+   <div class="work-list">
+    <div class="work pen">
+        <img src="image/work1.png" >
+        <div class="layer">
+            <h3>Sorting Visualizer uing C++ and SDL2</h3>
+            <p>
+                Sorting VisualizerSorting Visualizer
+                Built C++ Application for visualizing Sorting Algorithm, implemented Insertion Sort, Selection Sort ,Bubble sort, Merge Sort, Quick Sort, Heap Sort. Analyzing the behaviour of the implemented algorithm for varying input Sizes.Built C++ Application for visualizing Sorting Algorithm, implemented Insertion Sort, Selection Sort ,Bubble sort, Merge Sort, Quick Sort, Heap Sort. Analyzing the behaviour of the implemented algorithm for varying input Sizes.
+               <br><br> Skills: SDL2,C++</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="image/work2.png" >
+        <div class="layer">
+            <h3>Helmet Detection using open cv</h3>
+            <p>
+                This is an Machine Learning Project which is built in Python Many Libraries of python like Tenseflow. Imutils, Kerals are used. And also the deep neural networks are used to identify the position of faces(such as StartX, StartY, endX, endY) Clone the repo .</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="image/work3.png" >
+        <div class="layer">
+            <h3>Movie Suggestion using react.js</h3>
+            <p>
+                It is C++ based Application, which aims to visualize different pathfinding algorithms on a grid-based environment. This application provides a graphical user interface(GUI) where the user draw obstacles and walls on the grid, select the start and end points, and choose between various pathfinding algorithms to visualize the path.It is C++ based Application, which aims to visualize different pathfinding algorithms on a grid-based environment. This application provides a graphical user interface(GUI) where the user draw obstacles and walls on the grid, select the start and end points.</p>
+               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+        </div>
+    </div>
+   </div>
+   <a href="#" class="btn">See more</a>
+</div>
+</div>
+<!-- ------------------------Contact------------------------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jackandthebean1234@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+916360717591</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jimpa-gyatso-46317b210/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/jim-gyas"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://leetcode.com/profile/"><i class="fa-sharp fa-solid fa-rectangle-code"></i></a>
+
+                </div>
+                <a href="image/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Jimpa Gyatso</p>
+    </div>
+</div>
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-170px";
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxIJxCslVry8RXEpvoHe-ZqUNz8z9ZuXCITprg5DtVmK827TV-rb8o1nyeA0dEA6lSq/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML= "Message sent successfully"})
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+       
+    }) .catch(error => console.error('Error!', error.message))
+  </script>
+</body>
+</html>
